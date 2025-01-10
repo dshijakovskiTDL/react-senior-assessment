@@ -55,6 +55,8 @@ As a user, you should be able to:
 
 5. **The Kanban board needs to show its state in real-time**. This means that if you "sign in" from 2 different browsers - **changing a ticket's status should be reflected in both browsers at the same time**.
 
+- Only the ticket's status changing should be reflected in real time. Any other changes like creating/deleting a column or a ticket don't need to be shown in real-time (but they may arise as a natural progression of the real-time ticket status change, depending on the implementation 😉)
+
 ---
 
 You need to choose the appropriate database(s) for storing such information - both the persistent and the real-time data.
